@@ -1,0 +1,11 @@
+@use "./../color" as *;
+@mixin center-section {
+  width: 450px;
+  // min-height: 450px;
+
+  max-width: 95%;
+  margin: auto;
+  max-height: 100%;
+  box-shadow: 0px 0px 14px 1px $color-mid-black;
+  overflow: hidden;
+}

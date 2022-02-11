@@ -1,0 +1,22 @@
+@use "./../../../../style/_config.sass" as dv;
+#SignUpStepOne {
+  @include dv.flex-column;
+  padding: 5%;
+
+  form {
+    @include dv.flex-column;
+    .pickDate {
+      margin-bottom: 15px;
+    }
+    textarea {
+      height: 100px;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    .inputLabel {
+      @include dv.input-label-header;
+    }
+  }
+  .previousButton {
+  }
+}

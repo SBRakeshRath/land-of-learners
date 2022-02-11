@@ -1,0 +1,10 @@
+@use "./../../../style/_config.sass" as dv;
+
+#customDatePicker {
+  @include dv.flex-row;
+  justify-content: space-between;
+
+  .selectorBox {
+    width: 30%;
+  }
+}

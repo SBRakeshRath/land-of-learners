@@ -1,0 +1,53 @@
+@use "./../../style/_config.sass" as dv;
+$main-width-padding: 5%;
+// .mainContainerWrapper {
+//   height: 100vh;
+//   @include dv.flex-center;
+//   padding: 20px 0;
+
+//   .box-wrapper {
+//     @include dv.center-section;
+//     @include dv.flex-column;
+//     position: relative;
+
+#login {
+
+  header {
+    @include dv.header-center-main;
+    color: dv.$color-light-blue;
+  }
+  .inputs {
+    padding: 0% $main-width-padding;
+    .form {
+      @include dv.flex-column;
+      margin: auto;
+
+      .text-field {
+        margin: 12px 0px;
+      }
+    }
+    a {
+      @include dv.text-link;
+      @include dv.flex-center;
+      text-align: center;
+    }
+  }
+
+  .otherOptions {
+    padding: 0% $main-width-padding;
+
+    .wrapper {
+      @include dv.flex-column;
+      height: auto;
+      margin: auto;
+      button {
+        margin: 10px 0px;
+        padding: 10px 5px;
+        background-color: dv.$antique-white;
+        color: dv.$color-mid-black;
+      }
+    }
+  }
+}
+//   }
+// }

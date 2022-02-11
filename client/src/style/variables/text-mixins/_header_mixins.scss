@@ -1,0 +1,14 @@
+@mixin header-center-main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+  font-size: 2em;
+  font-weight: 600;
+}
+@mixin input-label-header {
+  padding: 0px 5px;
+  padding-bottom: 15px;
+  font-size: 1rem;
+}

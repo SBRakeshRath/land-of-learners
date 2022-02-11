@@ -1,0 +1,20 @@
+@use "./../../style/_config.sass" as dv;
+
+.mainContainerWrapper {
+  height: 100vh;
+  @include dv.flex-center;
+  padding: 20px 0;
+
+  .box-wrapper {
+    @include dv.center-section;
+    @include dv.flex-column;
+    position: relative;
+    .main-container {
+      // @include dv.center-section;
+      @include dv.flex-column;
+      // padding: 5%;
+      position: relative;
+      overflow-y: auto;
+    }
+  }
+}
